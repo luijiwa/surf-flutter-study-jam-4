@@ -1,10 +1,13 @@
-#Tue Jul 25 16:07:51 GMT+07:00 2023
+#Tue Jul 25 20:38:59 GMT+07:00 2023
 base.0=D\:\\Artem Work\\projects\\flutter_learn\\surf_study_jam\\surf-flutter-study-jam-4\\surf-flutter-study-jam-4\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Artem Work\\projects\\flutter_learn\\surf_study_jam\\surf-flutter-study-jam-4\\surf-flutter-study-jam-4\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\Artem Work\\projects\\flutter_learn\\surf_study_jam\\surf-flutter-study-jam-4\\surf-flutter-study-jam-4\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.3=D\:\\Artem Work\\projects\\flutter_learn\\surf_study_jam\\surf-flutter-study-jam-4\\surf-flutter-study-jam-4\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=1/classes.dex
+path.3=0/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
+renamed.3=classes4.dex

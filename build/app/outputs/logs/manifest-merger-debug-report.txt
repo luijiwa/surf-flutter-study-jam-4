@@ -5,6 +5,7 @@ INJECTED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-s
 INJECTED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\AndroidManifest.xml:1:1-41:12
 INJECTED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from [:sensors_plus] D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\sensors_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\arata\.gradle\caches\transforms-3\9deac761c746013d01814d4bafebe8d3\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\arata\.gradle\caches\transforms-3\2fca92a55a4cbb89f3d777be435467ee\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\arata\.gradle\caches\transforms-3\4eee026d13634063391a7cd285dc8e5d\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -99,6 +100,8 @@ uses-sdk
 INJECTED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\AndroidManifest.xml
+MERGED from [:sensors_plus] D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\sensors_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sensors_plus] D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\sensors_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\arata\.gradle\caches\transforms-3\9deac761c746013d01814d4bafebe8d3\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\arata\.gradle\caches\transforms-3\9deac761c746013d01814d4bafebe8d3\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\arata\.gradle\caches\transforms-3\2fca92a55a4cbb89f3d777be435467ee\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41

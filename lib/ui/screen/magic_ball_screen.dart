@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:surf_practice_magic_ball/ui/widget/magic_ball_widget.dart';
 
-class MagicBallScreen extends StatelessWidget {
+class MagicBallScreen extends StatefulWidget {
   const MagicBallScreen({Key? key}) : super(key: key);
 
+  @override
+  State<MagicBallScreen> createState() => _MagicBallScreenState();
+}
+
+class _MagicBallScreenState extends State<MagicBallScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,9 +31,7 @@ class MagicBallScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 SizedBox(height: 100),
-                MagicBallWidget(
-                  visible: true,
-                ),
+                MagicBallWidget(),
                 ShadowBallWidget(),
                 Text(
                   'Нажмите на шар или потрясите телефон',
