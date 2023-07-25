@@ -9,12 +9,9 @@ class MagicBallWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Stack(
       children: [
-        SizedBox(
-          height: 300,
-          width: 300,
-          child: CircleAvatar(
-            backgroundImage: AssetImage('images/bubble.png'),
-          ),
+        CircleAvatar(
+          radius: 180,
+          backgroundImage: AssetImage('images/bubble.png'),
         ),
       ],
     );

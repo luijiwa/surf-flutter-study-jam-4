@@ -12,7 +12,7 @@ class MagicBallScreen extends StatelessWidget {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
+            end: Alignment(0, 2),
             colors: [
               Color.fromARGB(255, 16, 12, 44),
               Color.fromARGB(255, 0, 0, 2),
@@ -33,7 +33,10 @@ class MagicBallScreen extends StatelessWidget {
                   ShadowBallWidget(),
                   Text(
                     'Нажмите на шар или потрясите телефон',
-                    style: TextStyle(fontSize: 16, color: Colors.grey),
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.grey,
+                    ),
                   )
                 ],
               ),
