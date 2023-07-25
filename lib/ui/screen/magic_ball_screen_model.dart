@@ -1,4 +1,35 @@
-class MagicBallScreenModel {}
+import 'package:flutter/material.dart';
+import 'package:surf_practice_magic_ball/domain/api_client/api_client.dart';
+import 'package:surf_practice_magic_ball/domain/entity/answers.dart';
+
+class MagicBallScreenModel extends ChangeNotifier {
+  Answers? _answer;
+  Answers? get answer => _answer;
+
+  double _opacity = 0.0;
+  double get opacity => _opacity;
+
+  Future<void> changeOpacity() async {
+    if (_answer != null) {
+      _answer = null;
+      _opacity = 0.0;
+    } else {
+      _opacity = 1.0;
+    }
+    notifyListeners();
+  }
+
+  Future<void> fetchAnswer() async {
+    if (_opacity == 0.0) {
+      changeOpacity();
+    } else {
+      final answer = await ApiClient().getAnswer();
+      _answer = answer;
+    }
+
+    notifyListeners();
+  }
+}
 // const positive = [ 
 //   'It is Certain.', 
 //   'It is decidedly so.', 
@@ -6,7 +37,7 @@ class MagicBallScreenModel {}
 //   'Yes definitely.', 
 //   'You may rely on it.', 
 //   'As I see it, yes.', 
-//   'Most likely.',
+//   'Most likely.',  
 //   'Outlook good.',
 //   'Yes.',
 //   'Signs point to yes.'

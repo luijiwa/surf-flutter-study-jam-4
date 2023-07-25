@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:surf_practice_magic_ball/ui/screen/magic_ball_screen.dart';
+import 'package:surf_practice_magic_ball/ui/screen/magic_ball_screen_model.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => MagicBallScreenModel(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 /// App,s main widget.
