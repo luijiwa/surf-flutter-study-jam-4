@@ -14,4 +14,4 @@ Android
 
 # Ссылки на демонстрацию работы/скриншоты
 
-<p align="center"><img src="docs/assets/demo.webm" ></p>
+<p align="center"><img src="docs/assets/compress.webm" ></p>
