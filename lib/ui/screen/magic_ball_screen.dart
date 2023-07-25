@@ -65,6 +65,7 @@ class InstructionText extends StatelessWidget {
   }
 }
 
+// Виджет тени от магического шара
 class ShadowBallWidget extends StatelessWidget {
   const ShadowBallWidget({
     super.key,

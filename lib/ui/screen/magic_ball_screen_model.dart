@@ -9,6 +9,7 @@ class MagicBallScreenModel extends ChangeNotifier {
   double _opacity = 0.0;
   double get opacity => _opacity;
 
+//Функция меняющая прозрачность
   Future<void> changeOpacity() async {
     if (_answer != null) {
       _answer = null;
@@ -19,6 +20,7 @@ class MagicBallScreenModel extends ChangeNotifier {
     notifyListeners();
   }
 
+//Функция узнаёт прозрачность отправляет в changeOpacity если == 0 и запускает отправку get запроса
   Future<void> fetchAnswer() async {
     if (_opacity == 0.0) {
       changeOpacity();
@@ -30,6 +32,10 @@ class MagicBallScreenModel extends ChangeNotifier {
     notifyListeners();
   }
 }
+
+
+//Не успел реализовать swich с переводом всех вариантов на Русский Язык 
+//
 // const positive = [ 
 //   'It is Certain.', 
 //   'It is decidedly so.', 

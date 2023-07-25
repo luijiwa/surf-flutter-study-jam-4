@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:shake/shake.dart';
 import 'package:surf_practice_magic_ball/ui/screen/magic_ball_screen_model.dart';
 
+//Основной виджет магического шара
 class MagicBallWidget extends StatelessWidget {
   const MagicBallWidget({
     super.key,
@@ -35,6 +36,7 @@ class MagicBallWidget extends StatelessWidget {
   }
 }
 
+// Виджет текста ответа шара
 class MagicBallAnswerText extends StatelessWidget {
   const MagicBallAnswerText({super.key});
 
@@ -68,6 +70,7 @@ class MagicBallAnswerText extends StatelessWidget {
   }
 }
 
+// Виджет затемнения шара
 class FadingCircle extends StatelessWidget {
   const FadingCircle({
     super.key,
