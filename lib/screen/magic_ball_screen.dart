@@ -5,6 +5,25 @@ class MagicBallScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: GestureDetector(
+          onTap: () {},
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                height: 300,
+                width: 300,
+                color: Colors.amber,
+              ),
+              Text('Нажмите на шар или потрясите телефон')
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

@@ -1,0 +1,12 @@
+com.example.surf_practice_chat_flutter.app-jetified-window-1.0.0-beta04-0 C:\Users\arata\.gradle\caches\transforms-3\2fca92a55a4cbb89f3d777be435467ee\transformed\jetified-window-1.0.0-beta04\res
+com.example.surf_practice_chat_flutter.app-jetified-annotation-experimental-1.1.0-1 C:\Users\arata\.gradle\caches\transforms-3\4d52c56b41a430a66292c7fd8fae3bff\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.surf_practice_chat_flutter.app-core-1.6.0-2 C:\Users\arata\.gradle\caches\transforms-3\702475b2eb7d53ea7936487f5d7300e5\transformed\core-1.6.0\res
+com.example.surf_practice_chat_flutter.app-jetified-window-java-1.0.0-beta04-3 C:\Users\arata\.gradle\caches\transforms-3\9deac761c746013d01814d4bafebe8d3\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.surf_practice_chat_flutter.app-debug-4 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\debug\res
+com.example.surf_practice_chat_flutter.app-main-5 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\android\app\src\main\res
+com.example.surf_practice_chat_flutter.app-pngs-6 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\app\generated\res\pngs\debug
+com.example.surf_practice_chat_flutter.app-resValues-7 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\app\generated\res\resValues\debug
+com.example.surf_practice_chat_flutter.app-rs-8 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\app\generated\res\rs\debug
+com.example.surf_practice_chat_flutter.app-mergeDebugResources-9 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.surf_practice_chat_flutter.app-mergeDebugResources-10 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.surf_practice_chat_flutter.app-merged_res-11 D:\Artem Work\projects\flutter_learn\surf_study_jam\surf-flutter-study-jam-4\surf-flutter-study-jam-4\build\app\intermediates\merged_res\debug
