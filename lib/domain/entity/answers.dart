@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+// Модель для работы с ответами сервера
 class Answers {
   final String reading;
   Answers({
