@@ -1,22 +1,26 @@
 import 'dart:convert';
 import 'dart:io';
-
+import 'package:http/http.dart' as http;
 import 'package:surf_practice_magic_ball/domain/entity/answers.dart';
 
 class ApiClient {
   final client = HttpClient();
 
-  Future<List<Answers>> getAnswer() async {
-    final url = Uri.parse('https://eightballapi.com/api');
-    final request = await client.getUrl(url);
-    final response = await request.close();
-    final json = await response
-        .transform(utf8.decoder)
-        .toList()
-        .then((value) => value.join())
-        .then((v) => jsonDecode(v) as List<dynamic>);
-    final result =
-        json.map((dynamic e) => Answers.fromJson(e as String)).toList();
-    return result;
+  Future<Answers> getAnswer() async {
+    try {
+      final url = Uri.parse('https://eightballapi.com/api');
+      final response = await http.get(url);
+      switch (response.statusCode) {
+        case 200:
+          Map<String, dynamic> data = jsonDecode(response.body);
+          final answers = Answers.fromMap(data);
+          print(answers);
+          return answers;
+        default:
+          throw Exception(response.reasonPhrase);
+      }
+    } on Exception catch (_) {
+      rethrow;
+    }
   }
 }
