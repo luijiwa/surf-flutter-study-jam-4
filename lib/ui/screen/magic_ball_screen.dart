@@ -31,7 +31,10 @@ class MagicBallScreen extends StatelessWidget {
                   SizedBox(height: 100),
                   MagicBallWidget(),
                   ShadowBallWidget(),
-                  Text('Нажмите на шар или потрясите телефон',style: TextStyle(fontSize: 16, color: ),)
+                  Text(
+                    'Нажмите на шар или потрясите телефон',
+                    style: TextStyle(fontSize: 16, color: Colors.grey),
+                  )
                 ],
               ),
             ),
