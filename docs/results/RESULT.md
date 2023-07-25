@@ -13,5 +13,5 @@ Android
 
 
 # Ссылки на демонстрацию работы/скриншоты
-
-<p align="center"><img src="docs/assets/demo.gif" ></p>
+[image](docs/assets/demo.gif)
+docs/assets/demo.gif
