@@ -33,16 +33,32 @@ class _MagicBallScreenState extends State<MagicBallScreen> {
                 SizedBox(height: 100),
                 MagicBallWidget(),
                 ShadowBallWidget(),
-                Text(
-                  'Нажмите на шар или потрясите телефон',
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: Colors.grey,
-                  ),
-                )
+                InstructionText()
               ],
             ),
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class InstructionText extends StatelessWidget {
+  const InstructionText({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const Padding(
+      padding: EdgeInsets.symmetric(horizontal: 80),
+      child: Text(
+        'Нажмите на шар или потрясите телефон',
+        softWrap: true,
+        textAlign: TextAlign.center,
+        style: TextStyle(
+          fontSize: 16,
+          color: Colors.grey,
         ),
       ),
     );
