@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shake/shake.dart';
 import 'package:surf_practice_magic_ball/ui/screen/magic_ball_screen_model.dart';
 
 class MagicBallWidget extends StatelessWidget {
@@ -9,6 +10,11 @@ class MagicBallWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ShakeDetector.autoStart(
+      onPhoneShake: () =>
+          Provider.of<MagicBallScreenModel>(context, listen: false)
+              .changeOpacity(),
+    );
     return GestureDetector(
       onTap: () => Provider.of<MagicBallScreenModel>(context, listen: false)
           .changeOpacity(),
@@ -48,7 +54,8 @@ class MagicBallAnswerText extends StatelessWidget {
           child: text != null
               ? Text(
                   text, // нужно сделать до 15 символов
-                  softWrap: true, textAlign: TextAlign.center,
+                  softWrap: true,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 32,
