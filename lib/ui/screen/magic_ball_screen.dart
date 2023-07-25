@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:surf_practice_magic_ball/domain/api_client/api_client.dart';
 import 'package:surf_practice_magic_ball/ui/widget/magic_ball_widget.dart';
 
 class MagicBallScreen extends StatelessWidget {
@@ -19,27 +18,26 @@ class MagicBallScreen extends StatelessWidget {
             ],
           ),
         ),
-        child: Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: GestureDetector(
-            onTap: () => ApiClient().getAnswer(),
-            child: const Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  SizedBox(height: 100),
-                  MagicBallWidget(),
-                  ShadowBallWidget(),
-                  Text(
-                    'Нажмите на шар или потрясите телефон',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.grey,
-                    ),
-                  )
-                ],
-              ),
+        child: const Padding(
+          padding: EdgeInsets.all(10.0),
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                SizedBox(height: 100),
+                MagicBallWidget(
+                  visible: true,
+                ),
+                ShadowBallWidget(),
+                Text(
+                  'Нажмите на шар или потрясите телефон',
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey,
+                  ),
+                )
+              ],
             ),
           ),
         ),
